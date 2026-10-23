@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Beat </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="game">
+    <h1>Color Beat </h1>
+    <p>Watch, remember, and repeat!</p>
+
+    
+<div class="stats">
+  <span>Level: <strong id="level">0</strong></span>
+  <span>Lives: <strong id="lives">❤️❤️❤️</strong></span>
+  <span>Best: <strong id="best">0</strong></span>
+</div>
+
+
+    <div class="board">
+      <button class="tile pink" data-tile="0" aria-label="Pink tile"></button>
+      <button class="tile purple" data-tile="1" aria-label="Purple tile"></button>
+      <button class="tile yellow" data-tile="2" aria-label="Yellow tile"></button>
+      <button class="tile blue" data-tile="3" aria-label="Mint tile"></button>
+      <button class="tile red" data-tile="4" aria-label="Mint tile"></button>
+      <button class="tile green" data-tile="5" aria-label="Mint tile"></button>
+      <button class="tile orange" data-tile="6" aria-label="Mint tile"></button>
+      <button class="tile brown" data-tile="7" aria-label="Mint tile"></button>
+    </div>
+
+    <p id="message" aria-live="polite">Ready to play?</p>
+    <button id="start">Start Game</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
